@@ -1,0 +1,15 @@
+
+# 注释掉或删除这行
+# pip install -q git+https://github.com/tensorflow/docs
+
+# 在代码中注释掉相关导入
+# from tensorflow_docs.vis import embed
+
+# 替换 to_gif 函数中的 embed.embed_file 调用
+def to_gif(images, duration):
+    """Converts image sequence (4D numpy array) to gif."""
+    imageio.mimsave('./animation.gif', images, duration=duration)
+    # return embed.embed_file('./animation.gif')  # 注释这行
+    print("GIF saved as animation.gif")  # 添加这行
+    return "GIF动画已保存为 animation.gif 文件"
+
