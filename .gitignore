@@ -135,6 +135,8 @@ venv/
 ENV/
 env.bak/
 venv.bak/
+.vscode/
+.idea/
 
 # Spyder project settings
 .spyderproject
@@ -179,5 +181,4 @@ cython_debug/
 #  refer to https://docs.cursor.com/context/ignore-files
 .cursorignore
 .cursorindexingignore
-/.idea
-.idea/workspace.xml
+test-tf.py
