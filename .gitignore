@@ -185,4 +185,7 @@ test-tf.py
 .vscode/
 .idea/
 env_info.txt
+env_info.md
+image*.png
+*.gif
 
