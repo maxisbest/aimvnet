@@ -182,3 +182,7 @@ cython_debug/
 .cursorignore
 .cursorindexingignore
 test-tf.py
+.vscode/
+.idea/
+env_info.txt
+
