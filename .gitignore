@@ -188,4 +188,6 @@ env_info.txt
 env_info.md
 image*.png
 *.gif
+*.mp4
+*.npy
 
